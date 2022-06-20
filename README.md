@@ -5,4 +5,4 @@
 
 ## Módulos:
 
-[x] - Modulo 1 | Introdução a Iac e Azure Cloud
+- [x] Modulo 1 | Introdução a Iac e Azure Cloud
