@@ -1,0 +1,6 @@
+#Ignorar Arquivos Terraform
+.terraform
+.Terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+.vscode
