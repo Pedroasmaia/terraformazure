@@ -6,7 +6,7 @@
 ## Módulos
 
 - [x] Modulo 1 | Introdução a Iac e Azure Cloud
-(- [x] (Modulo 2 | Terraform - Básico))[aaa]
+- [x] (Modulo 2 | Terraform - Básico)
 - [] Modulo 3 | Terraform no Azure
 - [] Modulo 4 | Terraform - Variáveis
 - [] Modulo 5 | Terraform - Funções, Expressões e Loops
