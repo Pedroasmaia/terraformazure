@@ -1,0 +1,11 @@
+#Verificar versão
+az version
+
+#Fazer Login
+az login
+
+#Criar grupo de recurso
+az group create --location brazilsouth --name rgazureclivscode
+
+#Excluir grupo de recurso
+az group delete --name rgazureclivscode

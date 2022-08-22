@@ -2,6 +2,7 @@
 
 - **Instrutor:** [Higor Barbosa](https://www.linkedin.com/in/higor-barbosa/)
 - **Plataforma:** [Udemy](https://www.udemy.com/course/terraformazure/)
+- **Minhas Anotações:** [Notion](https://l1ef.notion.site/Terraform-no-Azure-dfc4ebdeb255459caeec5e6c190b0474)
 
 ## Módulos
 
