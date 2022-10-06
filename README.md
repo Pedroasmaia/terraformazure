@@ -10,7 +10,7 @@
 - [x] Modulo 2 | Terraform - Básico
 - [x] Modulo 3 | Terraform no Azure
 - [x] Modulo 4 | Terraform - Variáveis
-- [ ] Modulo 5 | Terraform - Funções, Expressões e Loops
+- [x] Modulo 5 | Terraform - Funções, Expressões e Loops
 - [x] Modulo 6 | Terraform Remote State
 - [ ] Modulo 7 | Organizando o Terraform - Pastas, Modules, Workspaces e Terragrunt
 - [ ] Modulo 8 | Importando e Exportando Infraestrutura do Terraform
