@@ -12,7 +12,7 @@ Retorna o menor valor de uma lista de números.
 
 ~~~hcl
 min(12,54,3)
-#3
+#Output: 3
 ~~~
 
 ### max
@@ -21,7 +21,7 @@ Retorna o maior valor de uma lista de números.
 
 ~~~hcl
 max(12,54,3)
-#54
+#Output: 54
 ~~~
 
 ### sum
@@ -30,7 +30,7 @@ Para fazer operações de adição.
 
 ~~~hcl
 sum([4, 50])
-#54
+#Output: 54
 ~~~
 
 ## Funções para Strings 
@@ -70,7 +70,7 @@ Para saber o tamanho de caracteres em uma string.
 
 ~~~hcl
 length("pedro")
-#5
+#Output: 5
 ~~~
 
 ### title
