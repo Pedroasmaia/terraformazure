@@ -1,6 +1,6 @@
 # Funções, Expressões e Loops
 
-🗂️ [Diretório](/7%20-%20Fun%C3%A7%C3%B5es%20Express%C3%B5es%20e%20Loops/)
+🗂️ [Diretório](./5%20-%20Fun%C3%A7%C3%B5es%20Express%C3%B5es%20e%20Loops/)
 
 🌐 [Documentação Util](https://www.terraform.io/language/functions)
 
