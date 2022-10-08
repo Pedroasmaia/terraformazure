@@ -1,0 +1,14 @@
+#Verificar versão
+az version
+
+#Fazer Login
+az login
+
+#Criar grupo de recurso
+az group create --location brazilsouth --name rgazureclivscode
+
+#Criar storage account
+az storage container create -n terrafomstate --account-name tfstatetreino
+
+#Recupera chave do blob
+az storage account keys list --account-name tfstatetreino --resource-group rgazureclivscode
