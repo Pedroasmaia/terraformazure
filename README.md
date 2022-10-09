@@ -17,7 +17,7 @@
 - [x] Modulo 6 | Terraform Remote State
 - [x] Modulo 7 | Organizando o Terraform - Pastas, Modules, Workspaces e Terragrunt
 - [x] Modulo 8 | Importando e Exportando Infraestrutura do Terraform
-- [ ] Modulo 9 | Git - Controle de Versão do Código da sua Infraestrutura no Azure DevOps
+- [x] Modulo 9 | Git - Controle de Versão do Código da sua Infraestrutura no Azure DevOps
 - [ ] Modulo 10 | Integração e Entrega Continua da sua Infraestrutura com Azure DevOps
 - [ ] Modulo 11 | Testes, Qualidade e Segurança no Terraform
 - [ ] Modulo 12 | Terraform na Prática - Site Estático com Azure Storage
