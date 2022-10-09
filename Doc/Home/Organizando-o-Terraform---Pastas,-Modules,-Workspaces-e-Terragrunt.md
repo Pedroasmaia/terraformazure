@@ -1,6 +1,6 @@
 # Organizando o Terraform - Pastas, Modules, Workspaces e Terragrunt
 
-🗂️ [Diretório](/7%20-%20Organizando%20o%20Terraform/)
+🗂️ [Diretório](https://dev.azure.com/pedroasmaia/Meus%20Estudos/_git/terraformazure?path=/7%20-%20Organizando%20o%20Terraform)
 
 
 ## Opções de Organização da Nossa Iac
@@ -128,3 +128,29 @@ Yeoman é um Gerador de templetes
 #### Terragrunt
 
 🌐 [Documentação Util](https://terragrunt.gruntwork.io/docs/#getting-started)
+
+É uma ferramenta externa ao terraforma que utiliza o conceito Don't repeat yourself (DRY). 
+Conceito que evita retrabalho e replicações.
+
+Tem alguns comandos executados por linha de comando terragrunt?
+
+
+- apply-all
+- destroy-all
+- plan-all
+- output-all
+
+Para usar devemos:
+
+1. Rodar na linha de comando se já tiver o chocolatey instalado:
+~~~powershell
+choco install terragrunt
+~~~
+2. Devemos criar um arquivo com a extensão .hcl passando as configurações de Remote State
+3. Crie pastas para separar por recurso e inclua em cada um arquivo com a extensão .hcl para pegar as informações das pastas superiores, esse arquivo deve conter a seguinte instrução:
+~~~hcl
+include {
+    path = find_in_parent_folders()
+}
+~~~
+4. Após isso basta rodar os comandos citados acima
