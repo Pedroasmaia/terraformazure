@@ -48,4 +48,25 @@ Existem duas formas de realizar a configuração, utilizando a interface ou a li
 - Tarefas: É o menor componente das pipelines e podem ser agrupadas para salvar tarefas repetitivas
 - Artefato: É o produto do código.
 
+## CI CD Terraform
 
+- É possível configurar o backend pelas tarefas na pipeline, dispensando sua configuração no código
+- É uma boa praticar utilizar variaveis do build
+
+## YAML no Azure Pipelines
+
+## Algumas características:
+    - Usa UNICODE (UTF-8/UTF-16)
+    - Identação com espaços em branco
+    - Podemos ter listas e elas ficam entre colchetes [Lista | Colchete]
+    ~~~YAML
+    steps: [Lista | Colchete]
+    ~~~
+    - Podemos ter vetores representados assim:
+    ~~~YAML
+    service: {string: string | container}
+    ~~~
+    - Comentarios são feitos com hashtag
+    ~~~YAML
+    # Isso é um comentario
+    ~~~

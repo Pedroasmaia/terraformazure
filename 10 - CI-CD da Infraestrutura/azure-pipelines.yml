@@ -1,0 +1,34 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+Settings
+-task: Terraforminstaller
+  inputs:
+    terraformVersion: '0.14.6'
+Settings
+-task: TerraformTask1
+  inputs:
+    provider: 'azurerm'
+    commannd: 'init'
+    backendServiceArm: ''
+    backendAzureRmResourceGroupName: 'terraform'
+    backendAzureRmstorageaccountname: 'tfpipelinetreinamento'
+    backendAzureRm: 'terraform'
+    backendAzureRm: '$(chave)'
+Settings
+-task: Terraforminstaller
+  inputs:
+    provider: 'azurerm'
+    commannd: 'validate'
+Settings
+-task: PublishBuild
+  inputs:
+    pathtopublish: '$(System.DefaultWorkingDirectory)'
+    ArtifactName: 'Drop'
+    publishLocation: 'Container'
