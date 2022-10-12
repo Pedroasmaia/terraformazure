@@ -25,16 +25,18 @@ Workflow:
 - Realizar testes automatizado
 - Publicar
 
-## Integração Continua (CI)
+### Integração Continua (CI)
 
 Está contido em Pipelines/Pipelines
+
 - Code
 - Build
 - Teste
 
-## Entrega Continua (CD)
+### Entrega Continua (CD)
 
 Está contido em Pipelines/Releases
+
 - Teste
 - Release
 - Deploy
@@ -51,11 +53,15 @@ Existem duas formas de realizar a configuração, utilizando a interface ou a li
 ## CI CD Terraform
 
 - É possível configurar o backend pelas tarefas na pipeline, dispensando sua configuração no código
-- É uma boa praticar utilizar variaveis do build
+- Para deixar o passo de planejamento do Terraform legível passe a variável TF_CLI_ARGS com o valor -no-color
+- Boas praticas:
+  - Utilizar variáveis da pipeline.
+  - Ter um aprovador após o planejamento.
 
 ## YAML no Azure Pipelines
 
-## Algumas características:
+### Algumas características:
+
     - Usa UNICODE (UTF-8/UTF-16)
     - Identação com espaços em branco
     - Podemos ter listas e elas ficam entre colchetes [Lista | Colchete]
@@ -70,3 +76,8 @@ Existem duas formas de realizar a configuração, utilizando a interface ou a li
     ~~~YAML
     # Isso é um comentario
     ~~~
+
+## Azure Key Vault
+
+É um cofre de segurança para seus segredos, serve para armazenar e gerenciar suas chaves. Ajuda a impedir vazamento no nosso código fonte.
+Permite armazenar Certificados, Chaves e segredos.
