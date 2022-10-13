@@ -19,7 +19,7 @@
 - [x] Modulo 8 | Importando e Exportando Infraestrutura do Terraform
 - [x] Modulo 9 | Git - Controle de Versão do Código da sua Infraestrutura no Azure DevOps
 - [x] Modulo 10 | Integração e Entrega Continua da sua Infraestrutura com Azure DevOps
-- [ ] Modulo 11 | Testes, Qualidade e Segurança no Terraform
+- [x] Modulo 11 | Testes, Qualidade e Segurança no Terraform
 - [ ] Modulo 12 | Terraform na Prática - Site Estático com Azure Storage
 - [ ] Modulo 13 | Terraform na Prática - Azure App Service, CDN e Traffic Manager
 - [ ] Modulo 14 | Terraform na Prática - Banco de Dados Relacionais e NoSQL
