@@ -1,1 +1,0 @@
-# Introdução ao IaC e Azure Cloud
