@@ -1,0 +1,6 @@
+az acr login --name nomedoacr
+
+docker pull linkdoracr/nomedaimagem
+
+docker run -d -p 8080:80 linkdoconteiner
+# Numero da porta + link do conteiner
