@@ -23,6 +23,6 @@
 - [x] Modulo 13 | Terraform na Prática -- Azure App Service, CDN e Traffic Manager
 - [x] Modulo 14 | Terraform na Prática -- Banco de Dados Relacionais e NoSQL
 - [x] Modulo 15 | Terraform na Prática -- Máquinas Virtuais
-- [ ] Modulo 16 | Terraform na Prática -- Containers com ACI, ACR e App Service For Containers
+- [x] Modulo 16 | Terraform na Prática -- Containers com ACI, ACR e App Service For Containers
 - [ ] Modulo 17 | Terraform na Prática -- Kubernetes com AKS
 - [ ] Modulo 18 | Finalização do Treinamento
