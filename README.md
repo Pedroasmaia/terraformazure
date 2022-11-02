@@ -24,5 +24,7 @@
 - [x] Modulo 14 | Terraform na Prática -- Banco de Dados Relacionais e NoSQL
 - [x] Modulo 15 | Terraform na Prática -- Máquinas Virtuais
 - [x] Modulo 16 | Terraform na Prática -- Containers com ACI, ACR e App Service For Containers [#3](https://github.com/Pedroasmaia/terraformazure/issues/3)
-- [ ] Modulo 17 | Terraform na Prática -- Kubernetes com AKS
-- [ ] Modulo 18 | Finalização do Treinamento
+- [x] Modulo 17 | Terraform na Prática -- Kubernetes com AKS[[#4](https://github.com/Pedroasmaia/terraformazure/issues/4)]
+- [x] Modulo 18 | [Finalização do Treinamento](https://www.udemy.com/certificate/UC-8089c91c-5344-490c-b216-af772186b33a/)
+
+<img src="https://udemy-certificate.s3.amazonaws.com/image/UC-8089c91c-5344-490c-b216-af772186b33a.jpg?v=1667364031000">
